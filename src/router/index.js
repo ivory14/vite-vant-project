@@ -45,6 +45,16 @@ export const routes = [
       showTab: true,
     }
   },
+  {
+    path: '/musicDetails',
+    name: 'MusicDetails',
+    component: () => import('@V/home/musicDetails/index.vue'),
+    meta: {
+      title: '音乐',
+      showTab: false,
+    }
+  },
+
 ]
 
 
